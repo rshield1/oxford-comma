@@ -6,7 +6,7 @@ def oxford_comma(array)
     return array
   elsif array.length == 3
     array = array.insert(-2, "and").join(", ")
-    array.map |x| x == "and," ? 'and' : x
+    array.map do |x| x == "and," ? 'and' : x
     return array
 
   else puts "whoa there" 
