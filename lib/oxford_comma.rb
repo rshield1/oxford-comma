@@ -7,4 +7,4 @@ end
 case array.join
   when array.length == 2
     array.join(" and ")
-  when array.length ==
+  when array.length == 3
