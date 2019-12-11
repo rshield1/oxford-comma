@@ -5,4 +5,5 @@ end
 
 
 case array.join
-  when 
+  when array.lengh >= 3
+    array.join[-](" and ")
