@@ -1,12 +1,15 @@
 def oxford_comma(array)
   if array.length == 1
-      return array.join
+      puts array.join
   elsif array.length == 2
     array = array.join(' and ')
-    return array
+    puts array
   elsif array.length == 3
     array = array.insert(-2, "and").join(", ")
-    return array
-  else puts "whoa there" 
+    puts array
+  else  
+    array = array.insert(-2, "and").join(", ")
+    array.remove
+    puts array
   end
 end
