@@ -1,5 +1,5 @@
 def oxford_comma(array)
   
-array.spit(', and ')
+array.join(', and ')
  
 end
