@@ -4,7 +4,7 @@ case array
   when array.length == 1
     array.join(" and ")
   when array.length == 2
-    array.insert(1, " ,and ")
+    array.insert(1, 2)
   else
     array.join(" and ")
 end
