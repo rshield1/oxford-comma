@@ -5,5 +5,6 @@ end
 
 
 case array.join
-  when array.lengh >= 3
-    array.join[-](" and ")
+  when array.length == 2
+    array.join(" and ")
+  when array.length ==
