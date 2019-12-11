@@ -8,4 +8,4 @@ case array.join
   else
     array.join(" and ")
 end
-
+end
