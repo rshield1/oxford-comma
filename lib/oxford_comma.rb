@@ -6,7 +6,7 @@ def oxford_comma(array)
     return array
   elsif array.length == 3
     array = array.insert(-2, "and").join(" ")
-    puts array.last(2)
+    puts array.index(2)
   else puts "whoa there" 
   end
 end
